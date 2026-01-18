@@ -1,0 +1,14 @@
+baseURL = "https://justincamilleri.com/"
+languageCode = "en"
+title = "Justin Camilleri"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  [params.homeInfoParams]
+    Title = "Online journal"
+    Content = "Notes, reflections, and structured thinking."
