@@ -1,0 +1,92 @@
+/* Contact form – explicit contrast version */
+
+/* Container */
+.post-content form {
+  background: #f3f3f3;
+  padding: 1.4rem;
+  border-radius: 14px;
+}
+
+/* Spacing */
+.post-content form p {
+  margin: 0 0 1.1rem 0;
+}
+
+/* Labels */
+.post-content form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.45rem;
+  color: var(--primary);
+}
+
+/* Inputs: white on grey */
+.post-content form input[type="email"],
+.post-content form textarea {
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+  border: 1.5px solid #cfcfcf;
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Focus */
+.post-content form input[type="email"]:focus,
+.post-content form textarea:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+/* Button */
+.post-content form button {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 0.6rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.post-content form button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Dark mode correction */
+@media (prefers-color-scheme: dark) {
+  .post-content form {
+    background: #1f1f1f;
+  }
+
+  .post-content form label {
+    color: #413e3e;
+  }
+
+  .post-content form input[type="email"],
+  .post-content form textarea {
+    background: #2a2a2a;
+    color: #ffffff;
+    border-color: #3a3a3a;
+  }
+
+  .post-content form input[type="email"]::placeholder,
+  .post-content form textarea::placeholder {
+    color: #b5b5b5;
+  }
+
+  .post-content form button {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+
+  .post-content form button:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+}
