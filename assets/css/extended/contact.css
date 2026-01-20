@@ -1,18 +1,16 @@
-/* Contact form – explicit contrast version */
+/* Contact form styling */
 
-/* Container */
+/* Light mode */
 .post-content form {
   background: #f3f3f3;
   padding: 1.4rem;
   border-radius: 14px;
 }
 
-/* Spacing */
 .post-content form p {
   margin: 0 0 1.1rem 0;
 }
 
-/* Labels */
 .post-content form label {
   display: block;
   font-weight: 500;
@@ -20,7 +18,6 @@
   color: var(--primary);
 }
 
-/* Inputs: white on grey */
 .post-content form input[type="email"],
 .post-content form textarea {
   width: 100%;
@@ -33,14 +30,12 @@
   box-sizing: border-box;
 }
 
-/* Focus */
 .post-content form input[type="email"]:focus,
 .post-content form textarea:focus {
   outline: none;
   border-color: #000000;
 }
 
-/* Button */
 .post-content form button {
   background: #ffffff;
   color: #000000;
@@ -57,14 +52,14 @@
   color: #ffffff;
 }
 
-/* Dark mode correction */
+/* Dark mode: very dark grey container, readable labels */
 @media (prefers-color-scheme: dark) {
   .post-content form {
     background: #1f1f1f;
   }
 
   .post-content form label {
-    color: #413e3e;
+    color: #eaeaea;
   }
 
   .post-content form input[type="email"],
