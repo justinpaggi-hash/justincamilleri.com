@@ -1,6 +1,7 @@
 +++
 date = '2026-01-18T23:35:22+01:00'
 draft = false
+comments = true
 title = 'Why This Blog Exists'
 +++
 Introducing my online journal.
