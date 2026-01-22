@@ -26,6 +26,11 @@ theme = "PaperMod"
     weight = 10
 
   [[menu.main]]
+    name = "About me"
+    url = "/about/"
+    weight = 15
+
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 20
