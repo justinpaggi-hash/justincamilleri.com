@@ -1,0 +1,21 @@
+/* Comments note link styling */
+
+a.comment-link {
+  color: #005fcc !important;
+  text-decoration: underline !important;
+}
+
+a.comment-link:hover {
+  color: #003f8a !important;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  a.comment-link {
+    color: #7fb4ff !important;
+  }
+
+  a.comment-link:hover {
+    color: #a6ccff !important;
+  }
+}
