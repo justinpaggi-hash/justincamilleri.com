@@ -85,3 +85,24 @@
     color: #000000;
   }
 }
+/* Comments note link styling */
+
+.post-content a.comment-link {
+  color: #005fcc;
+  text-decoration: underline;
+}
+
+.post-content a.comment-link:hover {
+  color: #003f8a;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .post-content a.comment-link {
+    color: #7fb4ff;
+  }
+
+  .post-content a.comment-link:hover {
+    color: #a6ccff;
+  }
+}
