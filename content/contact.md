@@ -6,7 +6,6 @@ url: "/contact/"
 If you want to reach me, use the form below.
 
 <form action="https://formspree.io/f/mwvvrkrn" method="POST">
-  <input type="hidden" name="_redirect" value="https://justincamilleri.com/contact/thank-you/">
   <p>
     <label>Your email<br>
       <input type="email" name="email" required>
