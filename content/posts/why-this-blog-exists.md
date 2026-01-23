@@ -1,5 +1,5 @@
 +++
-date = '2026-01-23T23:35:22+01:00'
+date = '2026-01-23T08:00:00+01:00'
 draft = false
 comments = true
 title = 'Why This Blog Exists'
