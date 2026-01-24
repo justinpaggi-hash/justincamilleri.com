@@ -1,9 +1,11 @@
 +++
 date = '2026-01-23T08:00:00+01:00'
 draft = false
+ShowShareButtons = true
 comments = true
 title = 'Why This Blog Exists'
 +++
+
 Welcome to my online journal. I am Justin John Camilleri, and I will be using this space as a tool to relieve my mind from persistent thoughts, while sharing observations I make along the way, both professionally and in everyday life.
 
 For a long time, I was skeptical about keeping a journal or a diary. I considered the practice a poor use of time. In contrast, I have always believed strongly in the value of to do lists. They help structure both professional and personal life, but more importantly, they remove the burden of remembering tasks. The list carries that responsibility, not the mind. This reduces mental noise and allows clearer thinking.
