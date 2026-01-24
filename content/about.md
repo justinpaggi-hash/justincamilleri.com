@@ -2,8 +2,8 @@
 title: "About me"
 url: "/about/"
 ---
-Justin John Camilleri
-Strategy, leadership, and decision making. Para athlete.
+**Justin John Camilleri**<br>
+**Strategy, leadership, and decision making. Para athlete.**
 
 I work at the intersection of strategy, structure, and decision making, with a clear focus on how organisations grow, perform, and endure. My work is shaped by disciplined thinking, reflection, and direct engagement with complexity.
 
