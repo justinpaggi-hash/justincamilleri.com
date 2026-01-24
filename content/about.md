@@ -1,6 +1,7 @@
 ---
 title: "About me"
 url: "/about/"
+hideShareButtons: true
 ---
 **Justin John Camilleri**<br>
 **Strategy, leadership, and decision making. Para athlete.**
