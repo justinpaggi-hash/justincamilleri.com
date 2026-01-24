@@ -26,3 +26,5 @@ If you want to reach me, use the form below.
 </form>
 
 I will use your message only to respond.
+
+Alternatively, you may reach me at hello@justincamilleri.com 
