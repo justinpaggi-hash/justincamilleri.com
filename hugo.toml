@@ -17,7 +17,7 @@ theme = "PaperMod"
 
   [params.homeInfoParams]
     Title = "Online journal"
-    Content = "Notes, reflections, and structured thinking."
+    Content = "Reflections and structured thinking on leadership, performance, and decision making."
 
 [menu]
   [[menu.main]]
