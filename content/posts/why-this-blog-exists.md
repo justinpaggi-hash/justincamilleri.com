@@ -1,7 +1,6 @@
 +++
 date = '2026-01-23T08:00:00+01:00'
 draft = false
-ShowShareButtons = true
 comments = true
 title = 'Why This Blog Exists'
 +++

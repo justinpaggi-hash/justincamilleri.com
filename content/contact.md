@@ -2,6 +2,7 @@
 title: "Contact"
 url: "/contact/"
 disableShare: true
+comments: false
 ---
 
 If you want to reach me, use the form below.
