@@ -4,7 +4,7 @@ url: "/performance/"
 disableShare: true
 ---
 
-Sport, in this context, is not a personal pursuit. It functions as a controlled environment in which decision making, preparation, and execution can be tested under constraint.
+**Sport, in this context, is not a personal pursuit. It functions as a controlled environment in which decision making, preparation, and execution can be tested under constraint.**
 
 I lost my left hand in an accident at work when I was eighteen years old. The constraint that followed was permanent. What evolved over time was not the condition itself, but how I learned to operate within it.
 
