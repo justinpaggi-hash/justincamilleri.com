@@ -1,20 +1,51 @@
+/* Homepage subscribe: minimal, low-contrast */
 .home-subscribe {
-  margin-top: 2rem;
+  position: relative;
+  top: -65px;
+}
+
+.home-subscribe-text {
+  margin: 0;
+  font-size: 0.78rem;
+  opacity: 0.65;
 }
 
 .home-subscribe-form {
-  margin-top: 0.75rem;
-  display: grid;
-  gap: 0.5rem;
-  max-width: 420px;
+  margin-top: 0.35rem;
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 460px;
 }
 
-.home-subscribe-form input,
-.home-subscribe-form button {
-  padding: 0.6rem 0.75rem;
-  border-radius: 8px;
+.home-subscribe-form input[type="email"] {
+  flex: 1 1 200px;
+  min-width: 190px;
+  padding: 0.38rem 0.6rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--entry);
+  font-size: 0.85rem;
 }
 
 .home-subscribe-form button {
-  cursor: pointer;
+  padding: 0.38rem 0.7rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--theme);
+  font-size: 0.85rem;
+}
+
+/* Accessible visually-hidden label */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
