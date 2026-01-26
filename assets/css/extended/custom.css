@@ -1,0 +1,20 @@
+.home-subscribe {
+  margin-top: 2rem;
+}
+
+.home-subscribe-form {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+  max-width: 420px;
+}
+
+.home-subscribe-form input,
+.home-subscribe-form button {
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+}
+
+.home-subscribe-form button {
+  cursor: pointer;
+}
