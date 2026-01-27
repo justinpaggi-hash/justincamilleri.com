@@ -1,43 +1,42 @@
-/* Homepage subscribe: minimal, low-contrast */
+/* Subscribe block – original sleek version */
 .home-subscribe {
-  position: relative;
-  top: -65px;
+  margin-top: 0.75rem;
 }
 
 .home-subscribe-text {
   margin: 0;
-  font-size: 0.78rem;
-  opacity: 0.65;
+  font-size: 0.85rem;
+  opacity: 0.75;
 }
 
 .home-subscribe-form {
-  margin-top: 0.35rem;
+  margin-top: 0.5rem;
   display: flex;
-  gap: 0.45rem;
+  gap: 0.6rem;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 460px;
+  max-width: 520px;
 }
 
 .home-subscribe-form input[type="email"] {
-  flex: 1 1 200px;
-  min-width: 190px;
-  padding: 0.38rem 0.6rem;
+  flex: 1 1 240px;
+  min-width: 220px;
+  padding: 0.55rem 0.75rem;
   border-radius: 10px;
   border: 1px solid var(--border);
   background: var(--entry);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .home-subscribe-form button {
-  padding: 0.38rem 0.7rem;
+  padding: 0.55rem 0.9rem;
   border-radius: 10px;
   border: 1px solid var(--border);
   background: var(--theme);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
-/* Accessible visually-hidden label */
+/* Accessible visually hidden label */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -48,4 +47,22 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Reduce gap between home intro and first post (homepage only) */
+.home-info {
+  margin-top: 0 !important;
+  margin-bottom: -150px !important;
+  padding-bottom: 150px !important;
+}
+
+.home-info + .home-subscribe {
+  margin-top: 0px !important;
+  margin-bottom: 40px !important;
+  padding-bottom: 0 !important;
+}
+
+/* Only affects the homepage, because only the homepage has .home-info */
+.home-info + .post-entry {
+  margin-top: -20px !important;
 }
