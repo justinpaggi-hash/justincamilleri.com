@@ -1,6 +1,10 @@
 /* Subscribe block – original sleek version */
 .home-subscribe {
   margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .home-subscribe-text {
