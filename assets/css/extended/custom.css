@@ -70,3 +70,16 @@
 .home-info + .post-entry {
   margin-top: -20px !important;
 }
+
+/* Ensure subscribe form is clickable on the homepage */
+.home-subscribe {
+  position: relative;
+  z-index: 10;
+}
+
+.home-subscribe-form input,
+.home-subscribe-form button {
+  position: relative;
+  z-index: 11;
+  pointer-events: auto;
+}
