@@ -2,7 +2,7 @@
 title: "Informal Listening at Work: When Empathy Replaces Accountability"
 date: 2026-01-28
 draft: false
-comments: true
+comments: false
 ShowShareButtons: true
 ---
 
