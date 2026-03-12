@@ -1,7 +1,7 @@
 +++
 date = '2026-01-23T08:00:00+01:00'
 draft = false
-comments = true
+comments = false
 title = 'Why This Blog Exists'
 +++
 
