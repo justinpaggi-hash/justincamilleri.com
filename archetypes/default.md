@@ -2,7 +2,7 @@
 date = '{{ .Date }}'
 draft = true
 ShowShareButtons = true
-comments = true
+comments = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 +++
 
