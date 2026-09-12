@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Blog: Create article draft",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        "content",
+        "posts/${input:articleSlug}.md"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Blog: Preview drafts",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "server",
+        "-D",
+        "--disableFastRender"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Blog: Check production build",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "--minify",
+        "--cacheDir",
+        "/tmp/justincamilleri-blog-cache",
+        "--destination",
+        "/tmp/justincamilleri-blog-build"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "articleSlug",
+      "type": "promptString",
+      "description": "Article file name, using lowercase words separated by hyphens",
+      "default": "new-article"
+    }
+  ]
+}
