@@ -106,7 +106,7 @@ The answer is not to eliminate referrals.
 
 A referral can provide useful information about a candidate, particularly where the person making it has direct knowledge of their capabilities. Personal and professional networks are also an unavoidable reality in many organisations and family businesses.
 
-The distinction is between **a referral that creates an opportunity and a referral that determines an outcome**.
+The distinction is between a referral that creates an opportunity and a referral that determines an outcome**.
 
 A referred candidate can still be assessed against the requirements of the role and, where appropriate, compared with other candidates.
 
